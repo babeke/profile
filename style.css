@@ -1,0 +1,69 @@
+body {
+  background-color: #F4F6FF;
+  font-family: "Livvic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+  margin: 300px;
+
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #393E46;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #00ADB5;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: thick double #393E46;
+}
+
+
+li {
+  list-style: none;
+  padding: 0 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #00ADB5;
+
+}
+
+a:hover {
+  color: #222831;
+}
+
+i{
+  padding-left: 10px;
+}
+
+.footer, .corpus{
+margin: 30px auto;
+background-color: #EEEEEE;
+padding: 30px 0;
+}
+
+.li-footer{
+  display: inline;
+  word-spacing: 10px;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
